@@ -16,7 +16,6 @@ function MyPage() {
             onClick={() => handleLinkClick(path)}
             style={{...styles.item, backgroundColor: isPremium ? '#FFFACD' : 'white'}}
         >
-            <h4 style={styles.itemTitle}>{title} {isPremium && '⭐'}</h4>
             <p style={styles.itemDescription}>{description}</p>
         </div>
     );
@@ -48,7 +47,7 @@ function MyPage() {
                     isPremium={true}
                 />
                 <MyPageItem
-                    title="👨‍🔧 서비스 제공자 (헬퍼) 등록"
+                    title="👨‍🔧 서비스 제공자 등록"
                     description="유연한 파트타임 일자리 등록 및 활동 내역 관리."
                     path="/mypage/helper-register"
                 />
