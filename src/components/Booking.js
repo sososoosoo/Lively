@@ -26,6 +26,7 @@ function Booking() {
                 setTotalAmount(service.price);
             }
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [searchParams]);
 
     const handleServiceToggle = (service) => {
