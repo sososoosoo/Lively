@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Lively/static/css/main.f855e6bc.css",
+    "main.js": "/Lively/static/js/main.d8b96193.js",
+    "static/js/453.b01860ad.chunk.js": "/Lively/static/js/453.b01860ad.chunk.js",
+    "index.html": "/Lively/index.html",
+    "main.f855e6bc.css.map": "/Lively/static/css/main.f855e6bc.css.map",
+    "main.d8b96193.js.map": "/Lively/static/js/main.d8b96193.js.map",
+    "453.b01860ad.chunk.js.map": "/Lively/static/js/453.b01860ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d8b96193.js"
+  ]
+}
