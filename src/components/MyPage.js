@@ -60,11 +60,6 @@ function MyPage() {
                     description="폐의류, 택배 박스 등 재활용품 수거를 요청합니다."
                     path="/mypage/recycling"
                 />
-                <MyPageItem
-                    title="📢 층간소음 중재 서비스"
-                    description="이웃 간의 갈등을 비대면으로 완화하는 기능입니다."
-                    path="/mypage/noise-mediation"
-                />
             </div>
         </div>
     );
