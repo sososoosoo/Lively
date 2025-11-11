@@ -40,7 +40,7 @@ function Home() {
     const [recommendations, setRecommendations] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const navigate = useNavigate();
-    const userId = '이다은';
+    const userId = 'User';
 
     useEffect(() => {
         const loadRecommendations = async () => {
