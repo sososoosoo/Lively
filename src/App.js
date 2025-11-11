@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-      <Router>
+      <Router basename="/Lively">
         <div className="app-container" style={styles.appContainer}>
           <Header />
 
