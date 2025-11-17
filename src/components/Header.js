@@ -7,7 +7,7 @@ function Header() {
     return (
         <header style={styles.header}>
             <Link to="/" style={styles.logo}>
-                LIVELY / 살뜰
+                LIVELY
             </Link>
             <nav>
                 <Link to="/booking" style={styles.navLink}>예약</Link>

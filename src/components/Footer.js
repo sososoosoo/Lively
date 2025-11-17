@@ -5,7 +5,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer style={styles.footer}>
-            <p>&copy; {new Date().getFullYear()} LIVELY/살뜰. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} LIVELY. All rights reserved.</p>
             <p>AI 기반 통합 생활 서비스 플랫폼</p>
         </footer>
     );

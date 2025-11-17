@@ -60,9 +60,9 @@ function Home() {
         navigate(url);
     };
 
-    return (
-        <div className="home-container" style={styles.homeContainer}>
-            <h2 style={styles.greeting}>👋 {userId}님, 오늘의 추천 서비스입니다.</h2>
+    return ( // 김수찬을 userID로 하는게 맞아.
+        <div className="home-container" style={styles.homeContainer}> 
+            <h2 style={styles.greeting}>👋 김수찬님, 오늘의 추천 서비스입니다.</h2>
             <p style={styles.subtext}>AI가 고객님의 통합 일정을 분석하여 필요한 서비스를 제안합니다.</p>
 
             <div className="ai-recommendations" style={styles.recommendationArea}>
